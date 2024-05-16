@@ -1,0 +1,99 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.signup-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-form .form-group {
+  margin-bottom: 15px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.signup-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.alternative-signup {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.alternative-signup span {
+  margin-right: 5px;
+}
+
+.alternative-signup a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.alternative-signup a:hover {
+  text-decoration: underline;
+}
+
+.social-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-container h3 {
+  margin-bottom: 10px;
+}
+
+.social-container button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3b5998; /* Facebook blue */
+  color: #fff;
+}
+
+.social-container button:last-child {
+  margin-bottom: 0;
+}
+
+.social-container button:hover {
+  background-color: #2d4373; /* Darker Facebook blue on hover */
+}
